@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color:rgb(245, 215, 243);
+}
+
+.container {
+  text-align: center;
+}
+
+.shape {
+  width: 100px;
+  height: 100px;
+  background-color: #010e06;
+  margin: 10px;
+  display: inline-block;
+  transition: background-color 0.5s, transform 0.5s;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #a36b02;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #8b0c36;
+}
+
